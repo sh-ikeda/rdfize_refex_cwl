@@ -9,9 +9,9 @@ inputs:
   eachsample_table_file:
     type: File
   id_uri_prefix:
-    type: string
+    type: string?
   id_uri_abbrev:
-    type: string
+    type: string?
   eachsample_ttl_filename:
     type: string
     default: eachsample.ttl
