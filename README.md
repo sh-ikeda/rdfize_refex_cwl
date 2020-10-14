@@ -110,3 +110,11 @@ e.g. ensembl
 These will be output in the turtle as:  
 `@prefix ensembl: <http://rdf.ebi.ac.uk/resource/ensembl/> .`
 
+## Run
+
+```
+$ cwltool rdfize_refex_entry_wf.cwl rdfize_refex_entry_wf.yml
+```
+```
+$ cwltool rdfize_refex_sample_wf.cwl rdfize_refex_sample_wf.yml
+```
