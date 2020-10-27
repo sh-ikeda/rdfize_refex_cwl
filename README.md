@@ -75,6 +75,7 @@ RES00001616     SAMN07188038    GSM2647259
 ## Outputs
 Besides a turtle file, `rdfize_refex_entry_wf.cwl` outputs a tsv table file which contains statistical values calculated for each sample group.  
 The statistical values are five-number summary (the minimum, the maximum, the median, and the first and third quartiles), the mean, and the standard deviation of TPM values and log2(TPM+1) values of samples in a sample group.  
+Note that the mean value of the log-transformed values is calculated after log-transformation of raw TPM values (i.e., it is not the log-transformed mean value).
 
 ## Input yaml example
 
