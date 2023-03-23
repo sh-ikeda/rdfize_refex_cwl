@@ -25,6 +25,13 @@ inputs:
       position: 1
       separate: false
       prefix: -ventry_id_num=
+  col:
+    doc: "The column index of the eachsample table which matches the column name of the TPM table."
+    type: int?
+    inputBinding:
+      position: 2
+      separate: false
+      prefix: -vcol=
   output_filename:
     type: string
 

@@ -14,6 +14,8 @@ inputs:
     type: string
   entry_id_num:
     type: int
+  col:
+    type: int?
 
   # Inputs for rdfize_refex_entry
   id_uri_prefix:
