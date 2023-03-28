@@ -48,6 +48,7 @@ steps:
       tpm_table_file: tpm_table_file
       output_filename: entry_table_filename
       entry_id_num: entry_id_num
+      col: col
     out:
       [entry_table]
 
