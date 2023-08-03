@@ -25,7 +25,8 @@ The output files of the workflow are formatted as a TPM table, whose format is d
     Each column name is a BioSample ID. If technical replicates exist and BioSample IDs are not unique within the dataset, SRA Run IDs may be used instead.  
     Table values are TPM of a sample specified by the column name and a gene specified by the row name.  
     
-    Example:  
+    Example:
+    
 |             | SAMN07187967 | SAMN07187968 | SAMN07188034 |
 |-------------|--------------|--------------|--------------|
 | FBgn0265945 | 0.0          | 0.0          | 0.126749     |
@@ -44,7 +45,8 @@ The output files of the workflow are formatted as a TPM table, whose format is d
     `Description`: A human-readable description of a sample group.  
     `NumberOfSamples`: The number of samples which the sample group includes.  
     In columns 4 and after, any sample annotations can be described for each data set.  
-    Example:  
+    Example:
+    
 | RefexSampleId | Description                                                    | NumberOfSamples | Category | Strain | Tissue                                           | Sex    |
 |---------------|----------------------------------------------------------------|-----------------|----------|--------|--------------------------------------------------|--------|
 | RES00001615   | orgR, abdomen without digestive or reproductive system, female | 4               | tissues  | orgR   | abdomen without digestive or reproductive system | female |
@@ -63,7 +65,8 @@ The output files of the workflow are formatted as a TPM table, whose format is d
     Column 3: `ProjectSampleId` ID given by each project.  
     
     Example:  
-    (In this example Project sample IDs are GEO sample IDs)  
+    (In this example Project sample IDs are GEO sample IDs)
+    
 | RefexSampleId | BiosampleId  | ProjectSampleId |
 |---------------|--------------|-----------------|
 | RES00001615   | SAMN07187968 | GSM2647254      |
