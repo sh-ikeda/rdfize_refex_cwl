@@ -5,7 +5,8 @@ The CWL workflows and tools are in the `cwl/` directory.
 
 Directories under the `project/` directory contain a document to describe data sources of each project and dataset-specific formatting processes. The directories also have yml files for the CWL workflows.
 
-The `images/` directory contains a figure describing the flow of the processing.
+## Overview
+![wf](images/refex_wf.png)
 
 ## Raw sequence data processing
 When TPM value data was not provided by the submitter of a project, we calculated the TPM values from the raw sequence data with `HISAT2-StringTie` workflow of [Pitagora-cwl](https://github.com/pitagora-network/pitagora-cwl).  
